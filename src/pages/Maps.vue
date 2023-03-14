@@ -1,7 +1,6 @@
 <template>
-    <card type="plain" title="Google Maps">
-      <div id="map" class="map">
-      </div>
+    <card type="plain">
+      <h1><i class="tim-icons icon-settings text-primary "></i>  En Constucción ...</h1>
     </card>
 </template>
 <script>
