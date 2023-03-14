@@ -35,7 +35,7 @@
           extraOptions: chartConfigs.purpleChartOptions2,
           chartData: {
             datasets: [{
-              label: "Ventas",
+              label: "# Ventas",
               fill: true,
               borderColor: config.colors.primary,
               borderWidth: 2,
@@ -51,7 +51,7 @@
               data: [],
             },
             {
-              label: "personas",
+              label: "# Personas",
               fill: true,
               borderColor: config.colors.info,
               borderWidth: 2,
@@ -111,7 +111,7 @@
 
         blueBarChart3.chartData.datasets = 
           [{
-              label: "Ventas",
+              label: "# Ventas",
               fill: true,
               borderColor: config.colors.primary,
               borderWidth: 2,
@@ -127,7 +127,7 @@
               data: data1,
             },
             {
-              label: "personas",
+              label: "# Personas",
               fill: true,
               borderColor: config.colors.info,
               borderWidth: 2,

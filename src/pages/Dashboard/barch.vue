@@ -30,9 +30,9 @@
         blueBarChart: {
           extraOptions: chartConfigs.barChartOptions,
           chartData: {
-            labels: ["7:00-10:00", "10:00-13:00", "13-16", "16-19","19-22"],
+            labels: ["07:00-10:00", "10:00-13:00", "13:00 - 16:00", "16:00-19:00","19:00-22:00"],
             datasets: [{
-              label: "Si",
+              label: "Sí",
               fill: true,
               borderColor: config.colors.info,
               borderWidth: 2,

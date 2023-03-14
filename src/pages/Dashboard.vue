@@ -7,8 +7,8 @@
           <template slot="header">
             <div class="row">
               <div class="col-sm-6" :class="isRTL ? 'text-right' : 'text-left'">
-                <h5 class="card-category">Personas promedio</h5>
-                <h2 class="card-title">Personas</h2>
+                <h5 class="card-category">Promedios</h5>
+                <h2 class="card-title">Interacciones en el stand</h2>
               </div>
               <div class="col-sm-6">
               </div>
@@ -23,7 +23,7 @@
       <div class="col-lg-4" :class="{'text-right': isRTL}">
         <card type="chart">
           <template slot="header">
-            <h5 class="card-category">Scans Totales</h5>
+            <h5 class="card-category"># Escaneos Totales</h5>
             <h3 class="card-title"><i class="tim-icons icon-camera-18 text-primary "></i> 259</h3>
           </template>
           
@@ -34,8 +34,8 @@
       <div class="col-lg-4" :class="{'text-right': isRTL}">
         <card type="chart">
           <template slot="header">
-            <h5 class="card-category">Compras del libro</h5>
-            <h3 class="card-title"><i class="tim-icons icon-cart text-info "></i> ¿Se interactuo con los QR?</h3>
+            <h5 class="card-category"># Compras del libro</h5>
+            <h3 class="card-title"><i class="tim-icons icon-cart text-info "></i> ¿Se interactuó con los QR?</h3>
           </template>
           <barch :data-synergy="dataSynergyCompra"></barch>
         </card>
@@ -58,7 +58,7 @@
       </div>-->
       <div class="col-lg-4" >
         <card class="card" :header-classes="{'text-right': isRTL}">
-          <h4 slot="header" class="card-title">QR escaneados</h4>
+          <h3 slot="header" class="card-title">QR escaneados</h3>
           <div class="table-responsive" >
             <user-table></user-table>
           </div>
